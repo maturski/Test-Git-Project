@@ -21,6 +21,7 @@
 		4FC136DD19362D4B00C6B966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC136BF19362D4B00C6B966 /* UIKit.framework */; };
 		4FC136E519362D4B00C6B966 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FC136E319362D4B00C6B966 /* InfoPlist.strings */; };
 		4FC136E719362D4B00C6B966 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC136E619362D4B00C6B966 /* Git_TestTests.m */; };
+		4FC136F21936325800C6B966 /* RMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC136F11936325800C6B966 /* RMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4FC136E219362D4B00C6B966 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		4FC136E419362D4B00C6B966 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4FC136E619362D4B00C6B966 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		4FC136F01936325800C6B966 /* RMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMTest.h; sourceTree = "<group>"; };
+		4FC136F11936325800C6B966 /* RMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				4FC136CD19362D4B00C6B966 /* Main.storyboard */,
 				4FC136D019362D4B00C6B966 /* RMViewController.h */,
 				4FC136D119362D4B00C6B966 /* RMViewController.m */,
+				4FC136F01936325800C6B966 /* RMTest.h */,
+				4FC136F11936325800C6B966 /* RMTest.m */,
 				4FC136D319362D4B00C6B966 /* Images.xcassets */,
 				4FC136C219362D4B00C6B966 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				4FC136C819362D4B00C6B966 /* main.m in Sources */,
 				4FC136CC19362D4B00C6B966 /* RMAppDelegate.m in Sources */,
+				4FC136F21936325800C6B966 /* RMTest.m in Sources */,
 				4FC136D219362D4B00C6B966 /* RMViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
